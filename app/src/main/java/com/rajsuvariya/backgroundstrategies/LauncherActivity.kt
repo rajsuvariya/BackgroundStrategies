@@ -16,4 +16,9 @@ class LauncherActivity : AppCompatActivity() {
         val intent = Intent(this, AsyncTaskActivity::class.java)
         startActivity(intent)
     }
+
+    fun openThreadActivity(view: View){
+        val intent = Intent(this, ThreadActivity::class.java)
+        startActivity(intent)
+    }
 }
